@@ -1,5 +1,5 @@
 
-# ParkPassQ&A
+# ThemeParkAssist
 
 This notebook builds a question-answering (Q&A) pipeline that leverages web scraping, vector-based document retrieval, and LLMs to provide relevant answers to user queries, particularly in the context of amusement parks, such as Disney. The example used leverages Llama3 for local LLM functions.
 
