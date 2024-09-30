@@ -30,7 +30,7 @@ This notebook builds a question-answering (Q&A) pipeline that leverages web scra
    - Retrieved content is evaluated and graded for relevance using vector embeddings (via Chroma or Pinecone). The workflow automatically decides if the retrieved documents are useful for answering the query.
 
 4. **Answer Generation**:
-   - The notebook uses LangChain and OpenAI to generate answers based on the retrieved documents, simulating a question-answering system with self-reflection and hallucination detection steps to fully grade for accuracy before being returned.
+   - The notebook uses LangGraph and Llama3 to generate answers based on the retrieved documents, simulating a question-answering system with self-reflection and hallucination detection steps to fully grade for accuracy before returning the response.
 
 5. **Testing the Workflow**:
    - The Q&A process is only one stage of a journey for theme park visitors -- with tools and access to other data sources, a more complete journey orchestration process can be created.
