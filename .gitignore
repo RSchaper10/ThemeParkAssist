@@ -1,6 +1,7 @@
 # Ignore all _env folders
 *_env/
 **/*_env/
+venv/
 
 # Ignore all .png files
 *.png
@@ -11,3 +12,6 @@
 
 .DS_Store
 .env
+
+# Ignore Chromedriver files
+chromedriver/
