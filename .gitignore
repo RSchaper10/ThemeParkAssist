@@ -2,6 +2,7 @@
 *_env/
 **/*_env/
 venv/
+.venv/
 
 # Ignore all .png files
 *.png
@@ -15,3 +16,11 @@ venv/
 
 # Ignore Chromedriver files
 chromedriver/
+
+# Ignores from FastAPI
+.vscode
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
